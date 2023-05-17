@@ -1,6 +1,43 @@
-.digit {
-  background-color: rgb(6, 78, 78);
-  color: white;
-  margin: 5px;
-  padding: 5px;
+.container {
+  width: 100%;
+  height: 150px;
+  background-color: darkblue;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
+
+.counter p {
+  border: 1px crimson;
+  margin: 10px;
+  background-color: whitesmoke;
+  width: 70px;
+  font-size: 72px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.far {
+  border: 1px crimson;
+  margin: 10px;
+  background-color: green;
+  width: 90px;
+  font-size: 72px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding-top: 25px;
+}
+
+/* 
+  You can write your own styles here...
+  
+  
+  ...Or you can use the import command to include 
+  other sylesheets into your bunde as well, e.j:
+  
+  import 'relative/path/to/stylesheet.scss';
+*/
